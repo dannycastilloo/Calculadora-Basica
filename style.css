@@ -1,0 +1,52 @@
+* {
+    font-family: Cascadia Code;
+    background-color: rgb(24, 23, 23);
+}
+
+.calculadora {
+    width: 370px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+h1, h2 {
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+
+input {
+    color: white;
+    padding: 25px;
+    font-size: 24px;
+    width: 80px;
+    margin: 2px;
+}
+
+input:hover{
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+#pantalla {
+    width: 308px;
+    margin-bottom: 5px;
+}
+
+#equal {
+    background-color: rgb(255, 149, 0);
+    border-color: rgb(255, 149, 0);
+    width: 173px;
+}
+
+#equal:hover {
+    background-color: rgb(255, 89, 0);
+    color: white;
+}
+
+.operator {
+    background-color: rgba(0, 0, 0, 0.75);
+}
